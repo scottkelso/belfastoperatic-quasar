@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-belfastoperatic-dev-145827-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404333420474:role/amplify-belfastoperatic-dev-145827-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404333420474:role/amplify-belfastoperatic-dev-145827-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-belfastoperatic-dev-145827-deployment",
+      "UnauthRoleName": "amplify-belfastoperatic-dev-145827-unauthRole",
+      "StackName": "amplify-belfastoperatic-dev-145827",
+      "StackId": "arn:aws:cloudformation:eu-west-2:404333420474:stack/amplify-belfastoperatic-dev-145827/7492ed40-25e4-11ec-ae47-02cef028fdc4",
+      "AmplifyAppId": "d2nxivhuov35ct"
+    }
+  }
+}
