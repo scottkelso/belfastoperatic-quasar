@@ -10,6 +10,11 @@
       "StackName": "amplify-belfastoperatic-dev-145827",
       "StackId": "arn:aws:cloudformation:eu-west-2:404333420474:stack/amplify-belfastoperatic-dev-145827/7492ed40-25e4-11ec-ae47-02cef028fdc4",
       "AmplifyAppId": "d2nxivhuov35ct"
+    },
+    "categories": {
+      "auth": {
+        "belfastoperatic1a92d633": {}
+      }
     }
   }
 }

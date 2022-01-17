@@ -22,6 +22,7 @@ module.exports = configure(function (ctx) {
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli/boot-files
     boot: [
+      'amplify'
     ],
 
     // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -68,6 +69,17 @@ module.exports = configure(function (ctx) {
       chainWebpack (chain) {
         chain.plugin('eslint-webpack-plugin')
           .use(ESLintPlugin, [{ extensions: ['js', 'vue'] }])
+      },
+
+      // https://stackoverflow.com/questions/68330062/how-to-use-quasar-2-with-aws-amplify
+      extendWebpack (cfg, {isServer, isClient}) {
+        cfg.module.rules.push ({
+          test: /\.m?js/,
+          resolve: {
+            fullySpecified: false,
+            fallback: {crypto: false}
+          }
+        })
       }
     },
 

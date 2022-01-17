@@ -1,1 +1,8 @@
 // app global css in SCSS form
+
+// override amplify colors
+:root{
+  --amplify-primary-color: #042E6F;
+  --amplify-primary-tint: #6DD0F7;
+  --amplify-primary-shade: #5B4786;
+}
